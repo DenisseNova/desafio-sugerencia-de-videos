@@ -38,6 +38,11 @@ setInicio (){
 };
 }
 
-let musica = new Reproductor("https://www.youtube.com/embed/I-1oJnmr6nk", "videoMusica");
-let pelicula = new Reproductor("https://www.youtube.com/embed/mQXzv_eO9XE", "videoPelicula");
-let serie = new Reproductor ("https://www.youtube.com/embed/85z53bAebsI", "videoSerie");
+let musica = new Reproductor("https://www.youtube.com/embed/eB-b0o0BDr4", "musica");
+let pelicula = new Reproductor("https://www.youtube.com/embed/mQXzv_eO9XE","peliculas");
+let serie = new Reproductor ("https://www.youtube.com/embed/P4che0rdoQ0", "series");
+
+musica.playMultimedia();
+pelicula.playMultimedia();
+serie.playMultimedia();
+
