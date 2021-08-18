@@ -38,3 +38,6 @@ setInicio (){
 };
 }
 
+let musica = new Reproductor("https://www.youtube.com/embed/I-1oJnmr6nk", "videoMusica");
+let pelicula = new Reproductor("https://www.youtube.com/embed/mQXzv_eO9XE", "videoPelicula");
+let serie = new Reproductor ("https://www.youtube.com/embed/85z53bAebsI", "videoSerie");
